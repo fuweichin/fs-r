@@ -1,0 +1,26 @@
+{
+  "name": "fs-r",
+  "version": "0.1.0",
+  "description": "fs recursive functions",
+  "repository": "github:fuweichin/fs-r",
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.6"
+  },
+  "scripts": {
+    "doc": "jsdoc index.js -d doc",
+    "test": "jasmine --config=spec/support/jasmine.json"
+  },
+  "devDependencies": {
+    "jasmine": "^3.3.1",
+    "jsdoc": "^3.5.5"
+  },
+  "keywords": [
+    "fs",
+    "recursive",
+    "mkdir-p",
+    "rm-r",
+    "cp-r"
+  ]
+}
