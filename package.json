@@ -1,5 +1,5 @@
 {
-  "name": "fs-r",
+  "name": "@fuweichin/fs-r",
   "version": "0.1.0",
   "description": "fs recursive functions",
   "repository": "github:fuweichin/fs-r",
@@ -9,13 +9,16 @@
     "node": ">=8.6"
   },
   "scripts": {
-    "doc": "jsdoc index.js -d doc",
+    "doc": "jsdoc index.js -d temp",
     "test": "jasmine --config=spec/support/jasmine.json"
   },
   "devDependencies": {
     "jasmine": "^3.3.1",
     "jsdoc": "^3.5.5"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "fs",
     "recursive",
